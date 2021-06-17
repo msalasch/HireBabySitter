@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+<h1>Bienvenido  <%= @user.name %></h1>
+<p>
+  <br>
+<h2>Para continuar con tu perfil necesitamos que confirmes tu cuenta con el siguiente
+código de verificación: <%= @user.confirmation_token %><br/></h2>
+</p>
+<h3>HireBabySitter te espera!!!</h3>
+</body>
+</html>

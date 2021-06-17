@@ -1,0 +1,2 @@
+module ActionMailHelper
+end
